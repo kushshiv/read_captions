@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Subtitle Reader",
+  "version": "1.0",
+  "description": "An extension to extract and read YouTube subtitles aloud.",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tts",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
