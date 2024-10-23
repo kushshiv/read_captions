@@ -17,9 +17,8 @@ The extension is currently focused on English subtitles.
 
 ### Setup
 Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/read_captions.git
-    cd read_captions
+    ```
+    git clone https://github.com/kushshiv/read_captions.git
     ```
 
 ### Running the Project
