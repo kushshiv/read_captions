@@ -37,7 +37,7 @@ Clone the repository:
 2. The extension should now be loaded and ready to use.
 
 ### Development Workflow
-- To make changes, edit the source files in the `src` directory.
+- To make changes, edit the source files.
 - Reload the extension in Chrome to see the changes.
 
 ## Contributing
