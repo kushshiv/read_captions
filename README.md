@@ -5,6 +5,12 @@ This project is a Chrome extension that reads the captions from YouTube videos a
 This feature allows users to focus on the video content rather than reading the captions. 
 The extension is currently focused on English subtitles.
 
+## Sample
+
+https://github.com/user-attachments/assets/85595553-6acb-4380-b64e-40bae43b005d
+
+
+
 ## Features
 - Reads captions from YouTube videos.
 - Speaks the captions aloud.
@@ -26,7 +32,7 @@ Clone the repository:
 1. Load the extension in Chrome:
     1. Open Chrome and navigate to `chrome://extensions/`.
     2. Enable "Developer mode" by toggling the switch in the top right corner.
-    3. Click on "Load unpacked" and select the `build` directory of the project.
+    3. Click on "Load unpacked" and select the project.
 
 2. The extension should now be loaded and ready to use.
 
